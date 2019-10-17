@@ -7,9 +7,12 @@
 <title>communes</title>
 </head>
 <body>
-<h2>Recherche par code postal</h2>
+<h2>Recherche de communes</h2>
 <form action="CommuneServlet">
-Code postal <input name="cp" id="cp" size="8"> <button>Rechercher</button>
+Par code postal <input name="cp" id="cp" size="8"> <button>Rechercher</button>
+</form>
+<form action="CommunesParNomServlet">
+Par département <input name="nom" id="nom"> <button>Rechercher</button>
 </form>
 </body>
 </html>
