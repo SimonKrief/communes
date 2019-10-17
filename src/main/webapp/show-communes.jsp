@@ -8,7 +8,7 @@
 <title>communes</title>
 </head>
 <body>
-<h2>Communes pour le code postal ${param['cp'] }</h2>
+<h2>${titre }</h2>
 <table>
 	<c:forEach items="${communes }" var="commune">
 		<tr><td>${commune.nom }</td>

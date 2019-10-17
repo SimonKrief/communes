@@ -11,8 +11,8 @@
 <form action="CommuneServlet">
 Par code postal <input name="cp" id="cp" size="8"> <button>Rechercher</button>
 </form>
-<form action="CommunesParNomServlet">
-Par département <input name="nom" id="nom"> <button>Rechercher</button>
+<form action="CommuneByNomServlet">
+Par département <input name="nomVille" id="nom"> <button>Rechercher</button>
 </form>
 </body>
 </html>

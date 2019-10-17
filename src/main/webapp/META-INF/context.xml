@@ -19,5 +19,6 @@
 		maxActive='20'
 		maxIdle='10'
 		maxWait='100000'
-		removeAbandoned='true' />
+		removeAbandoned='true'
+		clearReferencesStopThreads='true' />
 </Context>

@@ -17,4 +17,8 @@ public class CommuneServices {
 	public List<Commune> getCommunesByCodePostal(String codePostal){
 		return dao.getCommunesByCodePostal(codePostal);
 	}
+
+	public List<Commune> getCommunesByNom(String nomVille) {
+		return dao.getCommunesByNom(nomVille);
+	}
 }
