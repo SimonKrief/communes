@@ -10,7 +10,7 @@
 <body>
 <h2>Recherche de communes</h2>
 
-Par code postal <input name="cp" id="cp" size="8"> <button type="button" onclick="getCommunes()">Rechercher</button>
+Par code postal <input name="cp" id="cp" size="8" > <button type="button" onclick="getCommunes()">Rechercher</button>
 
 <div id="container">
 
