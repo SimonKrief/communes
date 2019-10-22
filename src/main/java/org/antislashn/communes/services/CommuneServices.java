@@ -21,4 +21,8 @@ public class CommuneServices {
 	public List<Commune> getCommunesByNom(String nomVille) {
 		return dao.getCommunesByNom(nomVille);
 	}
+	
+	public Commune findById(long id) {
+		return dao.findById(id);
+	}
 }
